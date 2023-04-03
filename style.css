@@ -1,0 +1,23 @@
+h3
+{
+    font-size: 28px !important;
+    font-family: cursive , serif;
+}
+
+.btn-warning:hover
+{
+    background-color: dodgerblue;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 3px 3px 41px yellow;}
+    to {box-shadow: 3px 3px 41px orangered;}
+}
